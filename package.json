@@ -1,0 +1,33 @@
+{
+  "name": "musicfestival",
+  "version": "1.0.0",
+  "description": "this project is a webpage about music festival whit all information and buy the tickets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch src/scss:build/css",
+    "css": "gulp css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diego-p17/musicFestival.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP",
+    "JAVASCRIPT"
+  ],
+  "author": "Diego Puentes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diego-p17/musicFestival/issues"
+  },
+  "homepage": "https://github.com/Diego-p17/musicFestival#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.58.0"
+  }
+}
